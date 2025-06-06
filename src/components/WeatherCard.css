@@ -1,0 +1,71 @@
+/* WeatherCard.css */
+.weather-card {
+  direction: rtl;
+  background-color: #fff;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  padding: 32px 40px;
+  margin: 0;
+  width: 100%;
+  max-width: 450px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.weather-location {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.city-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.weather-description {
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 8px;
+}
+
+.weather-icon {
+  width: 64px;
+  height: 64px;
+}
+
+.card-values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.value-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+  direction: ltr;
+}
