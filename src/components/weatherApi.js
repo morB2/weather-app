@@ -1,4 +1,4 @@
-const API_KEY = "YOUR_API_KEY";
+const API_KEY = ***REMOVED***;
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const getWeatherByCoords = async (lat, lon) => {
@@ -15,3 +15,4 @@ const getWeatherByCoords = async (lat, lon) => {
     icon: data.weather[0].icon
   };
 };
+export default getWeatherByCoords;
