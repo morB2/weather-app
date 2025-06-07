@@ -1,12 +1,19 @@
-# React + Vite
+# Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+אפליקציית React המציגה תחזית מזג אוויר עולמית עבור מספר ערים.  
+הנתונים מתקבלים מ-API של OpenWeatherMap ומוצגים בעברית.
 
-Currently, two official plugins are available:
+![צילום מסך של האפליקציה](screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## איך מריצים?
 
-## Expanding the ESLint configuration
+1. מתקינים את התלויות: npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. מריצים את הפרויקט: npm run dev
+
+
+## קבצים עיקריים
+
+- `src/App.jsx` - רכיב ראשי שמנהל את הנתונים ומציג את הכרטיסים.
+- `src/components/WeatherCard.jsx` - כרטיס תצוגה לכל עיר.
+- `src/components/weatherApi.js` - פונקציה לקבלת נתוני מזג אוויר מה-API.

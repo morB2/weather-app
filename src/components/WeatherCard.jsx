@@ -37,11 +37,11 @@ const WeatherCard = ({
       <div className="card-values">
         <div className="value-block">
           <div className="label">טמפ' נמדדת</div>
-          <div className="value">{temp}°C</div>
+          <div className="value">{Math.round(temp)}°C</div>
         </div>
         <div className="value-block">
           <div className="label">טמפ' מורגשת</div>
-          <div className="value">{feels_like}°C</div>
+          <div className="value">{Math.round(feels_like)}°C</div>
         </div>
         <div className="value-block">
           <div className="label">לחות</div>
