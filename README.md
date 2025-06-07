@@ -1,19 +1,19 @@
-# Weather App
+<h1 align="center"> Weather App </h1>
 
 אפליקציית React המציגה תחזית מזג אוויר עולמית עבור מספר ערים.  
 הנתונים מתקבלים מ-API של OpenWeatherMap ומוצגים בעברית.
 
 ![צילום מסך של האפליקציה](screenshot.png)
 
-## איך מריצים?
+<h2 dir="rtl">איך מריצים?</h2>
+<p dir="rtl">
+1. מתקינים את התלויות: <code>npm install</code><br>
+2. מריצים את הפרויקט: <code>npm run dev</code>
+</p>
 
-1. מתקינים את התלויות: npm install
-
-2. מריצים את הפרויקט: npm run dev
-
-
-## קבצים עיקריים
-
-- `src/App.jsx` - רכיב ראשי שמנהל את הנתונים ומציג את הכרטיסים.
-- `src/components/WeatherCard.jsx` - כרטיס תצוגה לכל עיר.
-- `src/components/weatherApi.js` - פונקציה לקבלת נתוני מזג אוויר מה-API.
+<h2 dir="rtl">קבצים עיקריים</h2>
+<ul dir="rtl">
+  <li><code>src/App.jsx</code> - רכיב ראשי שמנהל את הנתונים ומציג את הכרטיסים.</li>
+  <li><code>src/components/WeatherCard.jsx</code> - כרטיס תצוגה לכל עיר.</li>
+  <li><code>src/components/weatherApi.js</code> - פונקציה לקבלת נתוני מזג אוויר מה-API.</li>
+</ul>
